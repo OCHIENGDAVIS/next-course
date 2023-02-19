@@ -1,0 +1,10 @@
+@use '@/styles/globals.scss' as *;
+
+.blog {
+	padding: 2rem 4rem;
+	background-color: $primary-color;
+	h4 {
+		color: #eee;
+		font-size: 1.2rem;
+	}
+}
