@@ -1,0 +1,29 @@
+{
+	"products": [
+		{
+			"id": "p1",
+			"title": "product 1",
+			"description": "One of the best products in our store "
+		},
+		{
+			"id": "p2",
+			"title": "product 2",
+			"description": "One of the best products in our store "
+		},
+		{
+			"id": "p3",
+			"title": "product 3",
+			"description": "One of the best products in our store "
+		},
+		{
+			"id": "p4",
+			"title": "product 4",
+			"description": "One of the best products in our store "
+		},
+		{
+			"id": "p5",
+			"title": "product 5",
+			"description": "One of the best products in our store "
+		}
+	]
+}

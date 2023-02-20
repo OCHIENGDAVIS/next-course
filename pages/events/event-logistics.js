@@ -1,6 +1,3 @@
-// import AddressIcon from '../../icons/address-icon';
-// import DateIcon from '../icons/date-icon';
-// import LogisticsItem from './logistics-item';
 import AddressIcon from '@/components/icons/address-icon';
 import DateIcon from '@/components/icons/date-icon';
 import LogisticsItem from './logistics-item';
