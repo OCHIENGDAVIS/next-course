@@ -1,6 +1,7 @@
 import { Fragment } from 'react';
 
 import { useRouter } from 'next/router';
+import Head from 'next/head';
 
 import EventSummary from './event-summary';
 import EventLogistics from './event-logistics';
@@ -21,6 +22,10 @@ export default function EventDetail() {
 	}
 	return (
 		<Fragment>
+			<Head>
+				<title>{event.title}</title>
+				<meta name="description" content={event.description} />
+			</Head>
 			<EventSummary title={event.title} />
 			<EventLogistics
 				date={EventTarget.data}

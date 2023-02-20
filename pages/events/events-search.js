@@ -13,6 +13,7 @@ export default function Search(props) {
 		const month = monthInputRef.current.value;
 		props.onSearch(year, month);
 	}
+
 	return (
 		<form className={classes.form} action="" onSubmit={handleSubmit}>
 			<div className={classes.controls}>
