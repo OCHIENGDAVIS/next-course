@@ -6,6 +6,7 @@ import Head from 'next/head';
 import EventSummary from './event-summary';
 import EventLogistics from './event-logistics';
 import EventContent from './event-content';
+import Comments from '@/components/input/comment';
 import ErrorAlert from '@/components/ui/alert/error-alert';
 import { getEventById } from '@/dummy-data';
 
@@ -36,6 +37,7 @@ export default function EventDetail() {
 			<EventContent>
 				<p>{event.description}</p>
 			</EventContent>
+			<Comments eventId={event.id} />
 		</Fragment>
 	);
 }
