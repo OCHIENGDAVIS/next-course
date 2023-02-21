@@ -7,8 +7,8 @@ export default async function handler(req, res) {
 
 			const newUser = { email, id: new Date().toISOString() };
 			// ! TODO => store user into the database
-			const connectionURL =
-				'mongodb+srv://events-app:platenium_1994@cluster0.wb2v0.mongodb.net/eventsappdb?retryWrites=true&w=majority';
+			const connectionURL = process.env.MONGO_URI;
+
 			try {
 				const client = await MongoClient.connect(connectionURL);
 				const db = client.db();
